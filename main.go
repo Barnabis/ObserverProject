@@ -7,8 +7,8 @@ type Vektor3d struct {
 
 func main() {}
 
-func add(a Vektor3d, b Vektor3d) Vektor3d {
-	s := Vektor3d{a.x + b.x, a.y + b.y, a.z + b.z}
+func add(c Vektor3d, b Vektor3d) Vektor3d {
+	s := Vektor3d{c.x + b.x, c.y + b.y, c.z + b.z}
 	return s
 }
 
