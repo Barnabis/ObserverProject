@@ -7,7 +7,7 @@ func TestAdd(t *testing.T) {
 	b := Vektor3d{3, 5, 4}
 	var res Vektor3d = add(a, b)
 	if !(res.x == 3 && res.y == 7 && res.z == 7) {
-		t.Error("Fehler gefunden")
+		t.Error("Raoul ist dumm")
 	}
 }
 
